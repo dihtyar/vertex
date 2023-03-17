@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Object</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="user/css/reset.css">
+	<link rel="stylesheet" href="user/css/slick.css">
+	<link rel="stylesheet" href="user/css/slick-theme.css">
+	<link rel="stylesheet" href="user/css/main.css">
+	<link rel="stylesheet" href="user/css/media.css">
+	<!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />-->
+</head>
+
+<body>
+	<div class="o-loader">
+		<div class="o-loader_line"></div>
+	</div>
+	<div id="top" class="container in-page">
+		<header class="header">
+			<div class="header_button"></div>
+			<div class="header_logo">
+				<a href="index.html">
+					<svg version="1.1" id="logo_top" width="236" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						viewBox="0 0 300 30" style="enable-background:new 0 0 300 30;" xml:space="preserve">
+					<g>
+						<g>
+							<path d="M88.7,17.1c4.7,0,8.5-3.8,8.5-8.5c0-4.7-3.8-8.5-8.5-8.5H68.1v4.9h20.7c2,0,3.6,1.6,3.6,3.6c0,2-1.6,3.6-3.6,3.6H68.1
+								l0,1.9v15.1h4.9V17.1h8.7l12.2,12.2h6.9L88.5,17.1H88.7z"/>
+						</g>
+						<g>
+							<polygon points="100.7,4.9 112.8,4.9 112.8,29.2 117.7,29.2 117.7,4.9 129.9,4.9 129.9,0 100.7,0 		"/>
+						</g>
+						<g>
+							<polygon points="187.4,14.6 202,0 195.1,0 184,11.2 172.8,0 165.9,0 180.5,14.6 165.9,29.2 172.8,29.2 184,18.1 195.1,29.2
+								202,29.2 		"/>
+						</g>
+						<g>
+							<polygon points="35.4,29.2 64.6,29.2 64.6,24.4 40.3,24.4 40.3,17.1 64.6,17.1 64.6,12.2 35.4,12.2 		"/>
+						</g>
+						<g>
+							<rect x="133.3" y="24.4" width="29.2" height="4.9"/>
+						</g>
+						<g>
+							<polygon points="133.3,17.1 162.5,17.1 162.5,12.2 138.2,12.2 138.2,4.9 162.5,4.9 162.5,0 133.3,0 		"/>
+						</g>
+						<g>
+							<polygon points="17.4,19.7 5.6,0 -0.1,0 17.4,29.2 32,4.9 64.6,4.9 64.6,0 29.2,0 		"/>
+						</g>
+					</g>
+					<g>
+						<g>
+							<path class="st0" d="M264.4,14.6c0,6.5-5.2,11.7-11.7,11.7h0c-6.5,0-11.7-5.2-11.7-11.7V0h-2.9v14.6c0,8.1,6.5,14.6,14.6,14.6h0
+								c8.1,0,14.6-6.5,14.6-14.6V0h-2.9V14.6z"/>
+						</g>
+						<g>
+							<path class="st0" d="M285.3,0h-14.6V3h14.6c6.5,0,11.7,5.2,11.7,11.7v0c0,6.5-5.2,11.7-11.7,11.7h-11.7V13.2h-2.9v16.1h14.6
+								c8.1,0,14.6-6.5,14.6-14.6v0C299.9,6.6,293.4,0,285.3,0z"/>
+						</g>
+						<g>
+							<path class="st0" d="M229,13.6c1.4-1.4,2.2-3.4,2.2-5.5v0c0-4.4-3.6-8-8-8h-17.8v16.1v0h21.2c2.8,0,5.1,2.3,5.1,5.1v0
+								c0,2.8-2.3,5.1-5.1,5.1h-21.2v2.9h21.2c4.4,0,8-3.6,8-8C234.6,17.6,232.3,14.6,229,13.6z M223.1,13.2h-14.8V3h14.8
+								c2.8,0,5.1,2.3,5.1,5.1S226,13.2,223.1,13.2z"/>
+						</g>
+					</g>
+					</svg>
+				</a>
+			</div>
+		</header>
+		<button class="nav-button cd-nav-trigger" type="button">
+			<div class="nav-button_wrap">
+				<div class="nav-button_icon">
+					<span class="nav-button_line"></span>
+					<span class="nav-button_line"></span>
+					<span class="nav-button_line"></span>
+				</div>
+			</div>
+		</button>
+		<nav class="main__nav">
+			<div class="cd-primary-nav">
+				<div class="primary__cont">
+					<div class="pos__bot">
+						<ul class="primary__nav">
+							<li><a href="index.html">ГОЛОВНА</a></li>
+							<li><a href="about_company.html">Про компанію</a></li>
+							<li><a href="object.html">ОБ'ЄКТИ</a></li>
+							<li><a href="services.html">ПОСЛУГИ</a></li>
+							<li><a href="contacts.html">КОНТАКТИ</a></li>
+						</ul>
+						<ul class="primary__social">
+							<li><a href="#"><img src="user/img/f.svg" width="48" height="48" alt=""></a></li>
+							<li><a href="#"><img src="user/img/g.svg" width="48" height="48" alt=""></a></li>
+							<li><a href="#"><img src="user/img/in.svg" width="48" height="48" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="cd-overlay-nav">
+				<span></span>
+			</div> <!-- cd-overlay-nav -->
+			<div class="cd-overlay-content">
+				<span></span>
+			</div> <!-- cd-overlay-content -->
+		</nav>
+		<div class="page-in object__more">
+			<div class="page_b_pic picturefill-background">
+				<span data-src="user/img/page/img-5.png"></span>
+				<span data-src="user/img/page/img-5-tablet.png" data-media="(min-width: 320px)"></span>
+				<span data-src="user/img/page/img-5-book.png" data-media="(min-width: 1190px)"></span>
+				<span data-src="user/img/page/img-5.png" data-media="(min-width: 1442px)"></span>
+			</div>
+			<div class="wrap">
+				<div class="fl-l col__cont">
+					<ul class="nav__object pos-1">
+						<li><a href="#" class="prev"></a></li>
+						<li><a href="#" class="next"></a></li>
+					</ul>
+					<div class="cat__bl">
+						<ul class="cat__bl__list">
+							<li>
+								<p>Категорія:</p>
+								<strong>Промислові комплекси</strong>
+							</li>
+							<li>
+								<p>Клієнт:</p>
+								<strong>Комбікормовий завод в Мостицьках</strong>
+							</li>
+							<li>
+								<p>Рік:</p>
+								<strong>2017</strong>
+							</li>
+						</ul>
+						<p>Україна,<br> м. Львів, вул. Назва вулиці, буд. 20а</p>
+					</div>
+				</div>
+				<div class="filter-obj no-m">
+					<div class="filter-bl">
+						<h1 class="title__">КОМБІКОРМОВИЙ ЗАВОД В МОСТИсЬКАХ</h1>
+						<div class="sep-black"></div>
+						<div class="p-r">
+							<ul class="primary__social article">
+								<li><a href="#"><img src="user/img/f.svg" width="48" height="48" alt=""></a></li>
+								<li><a href="#"><img src="user/img/g.svg" width="48" height="48" alt=""></a></li>
+
+							</ul>
+							<div class="wr__txt ">
+								<p>Construction of complex engineering systems of buildings objects of industry, transport and communications, agriculture and agricultural products processing. The company carries out all work in construction, including pre preparation, designing, engineering support construction and commissioning.</p>
+								<p>The company carries out construction of complex engineering systems of buildings and structures industrial, transport and communications, agriculture and agricultural products processing. The company carries out all work in construction, including pre preparation, designing, engineering support construction and commissioning.</p>
+							</div>
+							<div class="clearfix p-r area__item">
+								<div class="green__line third poz-6"></div>
+								<div class="fl-r area__bl">
+									<p>ПЛОЩА</p>
+									<strong>1700</strong>
+									<p class="t-ar">М. КВ.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content__txt object">
+				<div class="slider-main__gr p-r">
+					<div class="wrap">
+						<div class="filter-obj second no-m">
+
+						</div>
+					</div>
+					<div class="slider__group p-a">
+						<div class="clearfix">
+							<div class="fl-r">
+								<div class="slider-for arr__sl">
+									<div class="img__">
+										<picture>
+											<source srcset="user/img/slider/sl-1.jpg" media="(min-width: 1442px)" >
+											<source srcset="user/img/slider/sl-1-book.jpg" media="(min-width: 1190px)">
+											<source srcset="user/img/slider/sl-1-tablet.jpg" media="(min-width: 300px)">
+											<img srcset="default.png" alt="Sample pic" >
+										</picture>
+									</div>
+									<div class="img__">
+										<picture>
+											<source srcset="user/img/slider/sl-2.jpg" media="(min-width: 1442px)" >
+											<source srcset="user/img/slider/sl-2-book.jpg" media="(min-width: 1190px)">
+											<source srcset="user/img/slider/sl-2-tablet.jpg" media="(min-width: 300px)">
+											<img srcset="default.png" alt="Sample pic" >
+										</picture>
+									</div>
+									<div class="img__">
+										<picture>
+											<source srcset="user/img/slider/sl-1.jpg" media="(min-width: 1442px)" >
+											<source srcset="user/img/slider/sl-1-book.jpg" media="(min-width: 1190px)">
+											<source srcset="user/img/slider/sl-1-tablet.jpg" media="(min-width: 300px)">
+											<img srcset="default.png" alt="Sample pic" >
+										</picture>
+									</div>
+								</div>
+							</div>
+							<div class="fl-l">
+								<div class="slider-nav">
+									<div class="img__">
+										<picture>
+											<source srcset="user/img/slider/sl-2.jpg" media="(min-width: 1442px)" >
+											<source srcset="user/img/slider/sl-2-book.jpg" media="(min-width: 1190px)">
+											<source srcset="user/img/slider/sl-2-tablet.jpg" media="(min-width: 300px)">
+											<img srcset="default.png" alt="Sample pic" >
+										</picture>
+									</div>
+									<div class="img__">
+										<picture>
+											<source srcset="user/img/slider/sl-1.jpg" media="(min-width: 1442px)" >
+											<source srcset="user/img/slider/sl-1-book.jpg" media="(min-width: 1190px)">
+											<source srcset="user/img/slider/sl-1-tablet.jpg" media="(min-width: 300px)">
+											<img srcset="default.png" alt="Sample pic" >
+										</picture>
+									</div>
+									<div class="img__">
+										<picture>
+											<source srcset="user/img/slider/sl-2.jpg" media="(min-width: 1442px)" >
+											<source srcset="user/img/slider/sl-2-book.jpg" media="(min-width: 1190px)">
+											<source srcset="user/img/slider/sl-2-tablet.jpg" media="(min-width: 300px)">
+											<img srcset="default.png" alt="Sample pic" >
+										</picture>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="object__j clearfix">
+				<div class="col-2">
+					<picture>
+						<source srcset="user/img/slider/s-1.jpg" media="(min-width: 1442px)" >
+						<source srcset="user/img/slider/s-1-book.jpg" media="(min-width: 1190px)">
+						<source srcset="user/img/slider/s-1-tablet.jpg" media="(min-width: 300px)">
+						<img srcset="default.png" alt="Sample pic" >
+					</picture>
+					<div class="desc__sl">
+						<p>Попередній об’єкт</p>
+						<h2><a href="#">ЕЛЕФАТОР В РОГАТИНІ</a></h2>
+					</div>
+				</div>
+				<div class="col-2">
+					<picture>
+						<source srcset="user/img/slider/s-2.jpg" media="(min-width: 1442px)" >
+						<source srcset="user/img/slider/s-2-book.jpg" media="(min-width: 1190px)">
+						<source srcset="user/img/slider/s-2-tablet.jpg" media="(min-width: 300px)">
+						<img srcset="default.png" alt="Sample pic" >
+					</picture>
+					<div class="desc__sl">
+						<p>Наступний об’єкт</p>
+						<h2><a href="#">АРСЕН У ЛЬВОВІ</a></h2>
+					</div>
+				</div>
+				<ul class="nav__object pos-2">
+					<li><a href="#" class="prev"></a></li>
+					<li><a href="#" class="next"></a></li>
+				</ul>
+			</div>
+			<div class="wrap">
+				<div class="btn__center t-ac">
+					<a href="#" class="btn__page in__btn" attrbutton="вСі ОБ’ЄКТИ">вСі ОБ’ЄКТИ</a>
+				</div>
+			</div>
+		</div>
+		<div id="vp-1" class="footer__main__ picturefill-background">
+			<span data-src="user/img/screen/sr_7.jpg"></span>
+			<span data-src="user/img/screen/sr_7-tablet.jpg" data-media="(min-width: 320px)"></span>
+			<span data-src="user/img/screen/sr_7-book.jpg" data-media="(min-width: 1190px)"></span>
+			<span data-src="user/img/screen/sr_7.jpg" data-media="(min-width: 1442px)"></span>
+			<div class="wrap">
+				<div class="pos__v_alight m__in">
+					<div class="content t-ac">
+						<a href="#" class="logo__page"><img src="user/img/logo_page.svg" width="1010" height="100" alt=""></a>
+						<div class="sep"></div>
+						<ul class="menu__page">
+							<li><a href="index.html">ГОЛОВНА</a></li>
+							<li><a href="about_company.html">Про компанію</a></li>
+							<li><a href="object.html">ОБ'ЄКТИ</a></li>
+							<li><a href="services.html">ПОСЛУГИ</a></li>
+							<li><a href="contacts.html">КОНТАКТИ</a></li>
+						</ul>
+						<div class="sep second"></div>
+					</div>
+				</div>
+				<div class="footer clearfix">
+					<p class="fl-l">&copy;2017<br>Всі права захищено</p>
+					<a href="#0" class="fl-r"><img src="user/img/GoldWeb_marketing_White.svg"  width="90" height="29" alt=""></a>
+					<ul class="primary__social">
+						<li><a href="#"><img src="user/img/f.svg" width="48" height="48" alt=""></a></li>
+						<li><a href="#"><img src="user/img/g.svg" width="48" height="48" alt=""></a></li>
+						<li><a href="#"><img src="user/img/in.svg" width="48" height="48" alt=""></a></li>
+					</ul>
+				</div>
+				<div class="line__left"></div>
+				<nav>
+					<ul class="cd-vertical-nav">
+						<li>
+							<a href="#top"  class="cd-prev">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+									viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+									<rect class="st0" width="60" height="60"/>
+									<polygon class="st1" points="18.7,34 21.5,36.8 30,28.3 38.5,36.8 41.3,34 30,22.7 "/>
+								</svg>
+							</a>
+						</li>
+					</ul> <!-- cd-vertical-nav -->
+				</nav>
+			</div>
+		</div>
+	</div>
+	<script src="user/js/jquery-3.1.1.min.js"></script>
+	<script src="user/libs/slick.min.js"></script>
+	<script src="user/libs/picturefill-background.js"></script>
+	<script src="user/libs/picturefill.js"></script>
+	<script src="user/libs/velocity.min.js"></script>
+	<script src="user/js/main.js"></script>
+<script>
+	$(function(){
+		$("a[href='#top']").click(function() {
+			$("html, body").animate({
+				scrollTop: 0
+			}, 600);
+			return false;
+		});
+
+		$('.slider-for').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: true,
+			asNavFor: '.slider-nav'
+		});
+		$('.slider-nav').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: false,
+			asNavFor: '.slider-for',
+			touchMove: false,
+			swipe: false
+		});
+		$(window).scroll(function() {
+			var scroll = $(window).scrollTop();
+			var objectSelect = $("#vp-1");
+			var objectPosition = objectSelect.offset().top - 50;
+			if (scroll > objectPosition) {
+				$('.footer__main__').addClass('is-visible');
+			} else {
+				$('.footer__main__').removeClass('is-visible');
+			}
+		});
+
+	if( $(window).width() > 641 ) {
+
+			$(document).on("scroll", onScroll);
+
+			function onScroll(event) {
+				var scrollPos = $(document).scrollTop();
+				$('.area__item').each(function () {
+					var currLink = $(this);
+					var refElement = $(currLink);
+					if (refElement.position().top - 100 <= scrollPos && refElement.position().top + refElement.height() + 400 > scrollPos) {
+						$('.area__item').removeClass("is-visible");
+						currLink.addClass("is-visible");
+					}
+					else {
+						currLink.removeClass("is-visible");
+					}
+				});
+			}
+	}
+
+});
+</script>
+</body>
+</html>

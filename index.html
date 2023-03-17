@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vertex Home</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=11">
+    <meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="user/css/reset.css">
+	<link rel="stylesheet" href="user/css/jquery.fullPage.css">
+	<link rel="stylesheet" href="user/css/scrollbox.min.css">
+	<link rel="stylesheet" href="user/css/main.css">
+	<link rel="stylesheet" href="user/css/media.css">
+	<script src="user/js/jquery.min.js"></script>
+	<script src="user/libs/jquery.fullPage.min.js"></script>
+	<script src="user/libs/jquery.mousewheel.min.js"></script>
+	<script src="user/libs/scrollbox.min.js"></script>
+	<script src="user/libs/picturefill-background.js"></script>
+	<script src="user/libs/velocity.min.js"></script>
+	<script src="user/libs/js-effect.js"></script>
+	<script src="user/js/main.js"></script>
+</head>
+<body class="has-nav-open">
+	<div class="o-loader">
+		<div class="o-loader_line"></div>
+	</div>
+	<div class="container">
+		<header class="header">
+			<div class="header_button"></div>
+			<div class="header_logo">
+				<a href="index.html">
+					<svg version="1.1" id="logo_top" width="236" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						viewBox="0 0 300 30" style="enable-background:new 0 0 300 30;" xml:space="preserve">
+					<g>
+						<g>
+							<path d="M88.7,17.1c4.7,0,8.5-3.8,8.5-8.5c0-4.7-3.8-8.5-8.5-8.5H68.1v4.9h20.7c2,0,3.6,1.6,3.6,3.6c0,2-1.6,3.6-3.6,3.6H68.1
+								l0,1.9v15.1h4.9V17.1h8.7l12.2,12.2h6.9L88.5,17.1H88.7z"/>
+						</g>
+						<g>
+							<polygon points="100.7,4.9 112.8,4.9 112.8,29.2 117.7,29.2 117.7,4.9 129.9,4.9 129.9,0 100.7,0 		"/>
+						</g>
+						<g>
+							<polygon points="187.4,14.6 202,0 195.1,0 184,11.2 172.8,0 165.9,0 180.5,14.6 165.9,29.2 172.8,29.2 184,18.1 195.1,29.2
+								202,29.2 		"/>
+						</g>
+						<g>
+							<polygon points="35.4,29.2 64.6,29.2 64.6,24.4 40.3,24.4 40.3,17.1 64.6,17.1 64.6,12.2 35.4,12.2 		"/>
+						</g>
+						<g>
+							<rect x="133.3" y="24.4" width="29.2" height="4.9"/>
+						</g>
+						<g>
+							<polygon points="133.3,17.1 162.5,17.1 162.5,12.2 138.2,12.2 138.2,4.9 162.5,4.9 162.5,0 133.3,0 		"/>
+						</g>
+						<g>
+							<polygon points="17.4,19.7 5.6,0 -0.1,0 17.4,29.2 32,4.9 64.6,4.9 64.6,0 29.2,0 		"/>
+						</g>
+					</g>
+					<g>
+						<g>
+							<path class="st0" d="M264.4,14.6c0,6.5-5.2,11.7-11.7,11.7h0c-6.5,0-11.7-5.2-11.7-11.7V0h-2.9v14.6c0,8.1,6.5,14.6,14.6,14.6h0
+								c8.1,0,14.6-6.5,14.6-14.6V0h-2.9V14.6z"/>
+						</g>
+						<g>
+							<path class="st0" d="M285.3,0h-14.6V3h14.6c6.5,0,11.7,5.2,11.7,11.7v0c0,6.5-5.2,11.7-11.7,11.7h-11.7V13.2h-2.9v16.1h14.6
+								c8.1,0,14.6-6.5,14.6-14.6v0C299.9,6.6,293.4,0,285.3,0z"/>
+						</g>
+						<g>
+							<path class="st0" d="M229,13.6c1.4-1.4,2.2-3.4,2.2-5.5v0c0-4.4-3.6-8-8-8h-17.8v16.1v0h21.2c2.8,0,5.1,2.3,5.1,5.1v0
+								c0,2.8-2.3,5.1-5.1,5.1h-21.2v2.9h21.2c4.4,0,8-3.6,8-8C234.6,17.6,232.3,14.6,229,13.6z M223.1,13.2h-14.8V3h14.8
+								c2.8,0,5.1,2.3,5.1,5.1S226,13.2,223.1,13.2z"/>
+						</g>
+					</g>
+					</svg>
+				</a>
+			</div>
+		</header>
+		<button class="nav-button cd-nav-trigger" type="button">
+			<div class="nav-button_wrap">
+				<div class="nav-button_icon">
+					<span class="nav-button_line"></span>
+					<span class="nav-button_line"></span>
+					<span class="nav-button_line"></span>
+				</div>
+			</div>
+		</button>
+		<nav class="main__nav">
+			<div class="cd-primary-nav">
+				<div class="primary__cont">
+					<div class="pos__bot">
+						<ul class="primary__nav">
+							<li><a href="index.html">ГОЛОВНА</a></li>
+							<li><a href="about_company.html">Про компанію</a></li>
+							<li><a href="object.html">ОБ'ЄКТИ</a></li>
+							<li><a href="services.html">ПОСЛУГИ</a></li>
+							<li><a href="contacts.html">КОНТАКТИ</a></li>
+						</ul>
+						<ul class="primary__social">
+							<li><a href="#"><img src="user/img/f.svg" width="48" height="48" alt=""></a></li>
+							<li><a href="#"><img src="user/img/g.svg" width="48" height="48" alt=""></a></li>
+							<li><a href="#"><img src="user/img/in.svg" width="48" height="48" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="cd-overlay-nav">
+				<span></span>
+			</div> <!-- cd-overlay-nav -->
+			<div class="cd-overlay-content">
+				<span></span>
+			</div> <!-- cd-overlay-content -->
+		</nav>
+		<div class="cbp-fbscroller second">
+			<ul id="cd-vertical-nav" class="top">
+				<li data-menuanchor="fbsection1">
+					<a href="#section1">
+						<span class="digit">0</span>
+						<span class="digit">1</span>
+					</a>
+				</li>
+				<li data-menuanchor="fbsection2">
+					<a href="#section2">
+						<span class="digit">0</span>
+						<span class="digit">2</span>
+					</a>
+				</li>
+				<li data-menuanchor="fbsection3">
+					<a href="#section3" >
+						<span class="digit">0</span>
+						<span class="digit">3</span>
+					</a>
+				</li>
+				<li data-menuanchor="fbsection4">
+					<a href="#section4" data-number="4">
+						<span class="digit">0</span>
+						<span class="digit">4</span>
+					</a>
+				</li>
+				<li data-menuanchor="fbsection5">
+					<a href="#section5">
+						<span class="digit">0</span>
+						<span class="digit">5</span>
+					</a>
+				</li>
+				<li data-menuanchor="fbsection6">
+					<a href="#section6">
+						<span class="digit">0</span>
+						<span class="digit">6</span>
+					</a>
+				</li>
+				<li data-menuanchor="fbsection7">
+					<a href="#section7">
+						<span class="digit">0</span>
+						<span class="digit">7</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div id="fullpage" class="scroll__main">
+			<div data-anchor="fbsection1" id="section1" class="section picturefill-background">
+				<span data-src="user/img/screen/sr_1.jpg"></span>
+				<span data-src="user/img/screen/sr_1-tablet.jpg" data-media="(min-width: 320px)"></span>
+				<span data-src="user/img/screen/sr_1-book.jpg" data-media="(min-width: 1190px)"></span>
+				<span data-src="user/img/screen/sr_1.jpg" data-media="(min-width: 1442px)"></span>
+				<div class="wrap">
+					<div class="pos__v_alight m__in user-text">
+						<div class="content__first p-r">
+							<div class="green__line first poz-1"></div>
+							<h2 class="title__">We are innovation-driven civil and infrustructure building experts</h2>
+							<div class="clip first poz-1">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+					</div>
+					<div class="button__group t__ar">
+						<a href="#" class="btn__page" attrButton="НАШІ ПОСЛУГИ">НАШІ ПОСЛУГИ</a>
+						<a href="#" class="btn__page" attrButton="НАШІ ОБ’ЄКТИ">НАШІ ОБ’ЄКТИ</a>
+					</div>
+					<div class="line__left"></div>
+				</div>
+			</div>
+			<div data-anchor="fbsection2" id="section2" class="section picturefill-background">
+				<span data-src="user/img/screen/sr_2.jpg"></span>
+				<span data-src="user/img/screen/sr_2-tablet.jpg" data-media="(min-width: 320px)"></span>
+				<span data-src="user/img/screen/sr_2-book.jpg" data-media="(min-width: 1190px)"></span>
+				<span data-src="user/img/screen/sr_2.jpg" data-media="(min-width: 1442px)"></span>
+				<div class="wrap circle3">
+					<div class="">
+						<div class="m__in pos__v_alight item__1">
+							<div class="right__gr">
+								 <div class="scroll-box">
+									<div class="scroll-inner">
+										<div>
+											<div class="circle__bl pos__2 fl-r">
+												<div class="green__line second poz-2"></div>
+												<div class="circle__w">
+													<div class="graph p-r">
+														<div class="p-r">
+															<svg data-angle="300" class="js-svg-circle"></svg>
+														</div>
+														<div class="pos-text">
+															<div class="text-in">
+																<p class="t-ar">ПОНАД</p>
+																<span class="number circle_text-3">7200</span>
+																<p>М. КВ.</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div>
+											<div class="txt__info">
+												<span class="clip__br">
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+												</span>
+												<p>Будівництво складних інженерних комплексів будівель та споруд
+				об`єктів промисловості, транспорту та зв`язку, сільського господарства та переробки сільгосппродукції.</p>
+												<p>Компанія виконує всі види робіт з будівництва, включаючи передпроектну підготовку, проектування, інжиніринговий супровід будівництва та здачу об’єкта в експлуатацію.</p>
+											</div>
+										</div>
+									</div>
+								 </div>
+							</div>
+						</div>
+						<div class="m__in pos__v_alight">
+							<div class="content__second">
+								<div class="clearfix item__1">
+									<div class="green__line__v poz-1"></div>
+									<div class="fl-l p-r">
+										<div class="green__lines first poz-5"></div>
+										<h2 class="title__">Промислові комплекси будівель та споруд</h2>
+										<p class="sub__desk">V категорії складності</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="button__group t__ar">
+							<a href="#" class="btn__page" attrButton="ДЕТАЛЬНІШЕ">ДЕТАЛЬНІШЕ</a>
+						</div>
+						<div class="line__left"></div>
+					</div>
+				</div>
+			</div>
+			<div data-anchor="fbsection3" id="section3" class="section picturefill-background">
+				<span data-src="user/img/screen/sr_3.jpg"></span>
+				<span data-src="user/img/screen/sr_3-tablet.jpg" data-media="(min-width: 320px)"></span>
+				<span data-src="user/img/screen/sr_3-book.jpg" data-media="(min-width: 1190px)"></span>
+				<span data-src="user/img/screen/sr_3.jpg" data-media="(min-width: 1442px)"></span>
+				<div class="wrap circle">
+					<div id="circle"  class="">
+						<div class="m__in pos__v_alight">
+							<div class="left__gr item__1">
+								 <div class="scroll-box">
+									<div class="scroll-inner">
+										<div>
+											<div class="circle__bl pos__1">
+												<div class="green__line second poz-2"></div>
+												<div class="circle__w">
+													<div class="graph p-r">
+														<div class="p-r">
+															<svg data-angle="300" class="js-svg-circle"></svg>
+														</div>
+														<div class="pos-text">
+															<div class="text-in">
+																<p>ПОНАД</p>
+																<span class="number circle_text-1">3800</span>
+																<p class="t-ar">М. КВ.</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div>
+											<div class="txt__info">
+												<span class="clip__br">
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+												</span>
+												<p>Будівництво з нуля і “під ключ” бізнес-центрів, транспортно- логістичних комплексів, торгово-розважальних центрів, адміністративних багатофункціональних комплексів, офісних та складських приміщень, а також готельно-відпочинкових комплексів та інших об’єктів комерційної нерухомості різного рівня складності.</p>
+											</div>
+										</div>
+									</div>
+								 </div>
+							</div>
+						</div>
+						<div class="m__in pos__v_alight">
+							<div class="clearfix item__2">
+								<div class="fl-r">
+									<div class="clips first poz-1">
+										<span></span>
+										<span></span>
+										<span></span>
+									</div>
+									<h2 class="title__">Адміністративні торгові та логістичні центри</h2>
+									<p class="sub__desk">V категорії складності</p>
+									<div class="green__lines poz-1"></div>
+								</div>
+							</div>
+						</div>
+						<div class="button__group t__ar">
+							<a href="#" class="btn__page" attrButton="ДЕТАЛЬНІШЕ">ДЕТАЛЬНІШЕ</a>
+						</div>
+						<div class="line__left"></div>
+					</div>
+				</div>
+			</div>
+			<div data-anchor="fbsection4" id="section4" class="section picturefill-background">
+				<span data-src="user/img/screen/sr_4.jpg"></span>
+				<span data-src="user/img/screen/sr_4-tablet.jpg" data-media="(min-width: 320px)"></span>
+				<span data-src="user/img/screen/sr_4-book.jpg" data-media="(min-width: 1190px)"></span>
+				<span data-src="user/img/screen/sr_4.jpg" data-media="(min-width: 1442px)"></span>
+				<div class="wrap circle2">
+					<div class="">
+						<div class="m__in pos__v_alight item__1">
+							<div class="right__gr">
+								<div class="scroll-box">
+									<div class="scroll-inner">
+										<div>
+											<div class="circle__bl pos__2 fl-r">
+												<div class="green__line second poz-2"></div>
+												<div class="circle__w">
+													<div class="graph p-r">
+														<div class="p-r">
+															<svg data-angle="300" class="js-svg-circle"></svg>
+														</div>
+														<div class="pos-text">
+															<div class="text-in">
+																<p class="t-ar">ПОНАД</p>
+																<span class="number circle_text-2">1200</span>
+																<p>М. КВ.</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div>
+											<div class="txt__info">
+												<span class="clip__br">
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+												</span>
+												<p>Компанія виконує всі види робіт з будівництва споруд та комплексів для розміщення громадських установ освіти, культури, охорони здоров`я, спорту, соцзабезпечення, мистецтва, науки, фінансування, управління та інших об’єктів соціального, побутового й культурного призначення.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="m__in pos__v_alight">
+							<div class="content__second">
+								<div class="clearfix item__1">
+									<div class="clip2 first poz-4">
+										<span></span>
+										<span></span>
+										<span></span>
+									</div>
+									<div class="fl-l p-r">
+										<h2 class="title__">Громадські <br>споруди</h2>
+										<p class="sub__desk">V категорії складності</p>
+										<div class="green__lines poz-4"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="button__group t__ar">
+							<a href="#" class="btn__page" attrButton="ДЕТАЛЬНІШЕ">ДЕТАЛЬНІШЕ</a>
+						</div>
+						<div class="line__left"></div>
+					</div>
+				</div>
+			</div>
+			<div data-anchor="fbsection5" id="section5" class="section picturefill-background">
+				<span data-src="user/img/screen/sr_5.jpg"></span>
+				<span data-src="user/img/screen/sr_5-tablet.jpg" data-media="(min-width: 320px)"></span>
+				<span data-src="user/img/screen/sr_5-book.jpg" data-media="(min-width: 1190px)"></span>
+				<span data-src="user/img/screen/sr_5.jpg" data-media="(min-width: 1442px)"></span>
+				<div class="wrap">
+					<div class="item__4">
+						<div class="col-2">
+							<div class="pos__v_alight">
+								<div class="cont__item4 fl-r">
+									<h2 class="title__">НАШІ СУПУТНІ ПОСЛУГИ</h2>
+									<ul>
+										<li class="wow fadeInUp" data-wow-offset="100" data-wow-delay="0.1s">Надання консультаційних послуг з питань, пов’язаних з будівництвом</li>
+										<li class="wow fadeInUp" data-wow-offset="100" data-wow-delay="0.4s">Виготовлення та продаж товарного бетону з доставкою на місце</li>
+										<li class="wow fadeInUp" data-wow-offset="10" data-wow-delay="0.7s">Виготовлення виробів зі збірного залізобетону по індивідуальних замовленнях</li>
+										<li class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1s">Продаж будівельних матеріалів з доставкою на місце</li>
+										<li class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.3s">Надання послуг будівельними машинами та механізмами</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-anchor="fbsection6" id="section6" class="section picturefill-background">
+				<span data-src="user/img/screen/sr_6.jpg"></span>
+				<span data-src="user/img/screen/sr_6-tablet.jpg" data-media="(min-width: 320px)"></span>
+				<span data-src="user/img/screen/sr_6-book.jpg" data-media="(min-width: 1190px)"></span>
+				<span data-src="user/img/screen/sr_6.jpg" data-media="(min-width: 1442px)"></span>
+				<div class="wrap">
+					<div class="pos__v_alight m__in">
+						<div class="content__third item__6 p-r">
+							<div class="clip2 first poz-1">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							<div class="green__line__v poz-2"></div>
+							<h2 class="title__ second">Завдяки великому досвіду в галузі промислового будівництва компанія гарантує:</h2>
+							<ul>
+								<li>надійну співпрацю</li>
+								<li>високу якість робіт</li>
+								<li>швидке прийняття складних рішень</li>
+								<li>команду професіоналів на всіх етапах співпраці</li>
+							</ul>
+						</div>
+					</div>
+					<div class="button__group t__ar">
+						<a href="#" class="btn__page" attrButton="ПРО КОМПАНІЮ">ПРО КОМПАНІЮ</a>
+					</div>
+					<div class="line__left"></div>
+				</div>
+			</div>
+			<div data-anchor="fbsection7" id="section7" class="section picturefill-background">
+				<span data-src="user/img/screen/sr_7.jpg"></span>
+				<span data-src="user/img/screen/sr_7-tablet.jpg" data-media="(min-width: 320px)"></span>
+				<span data-src="user/img/screen/sr_7-book.jpg" data-media="(min-width: 1190px)"></span>
+				<span data-src="user/img/screen/sr_7.jpg" data-media="(min-width: 1442px)"></span>
+				<div class="wrap">
+					<div class="pos__ann">
+						<div class="pos__v_alight m__in">
+							<div class="content t-ac">
+								<!--<a href="#" class="logo__page"><img src="user/img/logo_page.svg" width="1010" height="100" alt=""></a>-->
+								<a href="#" class="logo__page">
+									<!--<img src="user/img/logo_page.svg" width="1010" height="100" alt="">-->
+									<svg  version="1.1" id="logo__animation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 viewBox="0 0 660 64" style="enable-background:new 0 0 660 64;" xml:space="preserve" width="1010" height="100">
+										<g>
+											<g>
+												<path class="st0" d="M195.3,37c10.3,0,18.7-8.3,18.7-18.6c0-10.3-8.4-18.6-18.7-18.6h-45.5v10.7h45.5c4.4,0,8,3.6,8,8
+													c0,4.4-3.6,8-8,8h-45.5l0,4.2v33.1h10.7V37h19.2l26.8,26.6h15.1L194.8,37H195.3z"/>
+											</g>
+											<g>
+												<polygon class="st0" points="221.6,10.3 248.3,10.3 248.3,63.6 259,63.6 259,10.3 285.8,10.3 285.8,-0.3 221.6,-0.3 		"/>
+											</g>
+											<g>
+												<polygon class="st0" points="412.3,31.6 444.4,-0.3 429.3,-0.3 404.8,24.1 380.2,-0.3 365.1,-0.3 397.2,31.6 365.1,63.6
+													380.2,63.6 404.8,39.2 429.3,63.6 444.4,63.6 		"/>
+											</g>
+											<g>
+												<polygon class="st0" points="78,63.6 142.3,63.6 142.3,52.9 88.7,52.9 88.7,37 142.3,37 142.3,26.3 78,26.3 		"/>
+											</g>
+											<g>
+												<rect x="293.3" y="52.9" class="st0" width="64.2" height="10.7"/>
+											</g>
+											<g>
+												<polygon class="st0" points="293.3,37 357.5,37 357.5,26.3 304,26.3 304,10.3 357.5,10.3 357.5,-0.3 293.3,-0.3 		"/>
+											</g>
+											<g>
+												<polygon class="st0" points="38.4,42.8 12.4,-0.3 -0.1,-0.3 38.4,63.6 70.4,10.3 142.3,10.3 142.3,-0.3 64.3,-0.3 		"/>
+											</g>
+										</g>
+										<g>
+											<g>
+												<path class="st1" d="M581.7,31.6c0,14.1-11.5,25.6-25.7,25.6h0c-14.2,0-25.7-11.5-25.7-25.6v-32h-6.4v32c0,17.7,14.4,32,32.1,32h0
+													c17.8,0,32.1-14.3,32.1-32v-32h-6.4V31.6z"/>
+											</g>
+											<g>
+												<path class="st1" d="M627.8-0.4h-32.1V6h32.1c14.2,0,25.7,11.5,25.7,25.6v0c0,14.1-11.5,25.6-25.7,25.6h-25.7V28.4h-6.4v35.2h32.1
+													c17.8,0,32.1-14.3,32.1-32v0C659.9,14,645.6-0.4,627.8-0.4z"/>
+											</g>
+											<g>
+												<path class="st1" d="M503.9,29.3c3-3.1,4.8-7.4,4.8-12.1v0c0-9.7-7.9-17.6-17.7-17.6h-39.1v35.2v0.1h46.6c6.2,0,11.2,5,11.2,11.2
+													v0c0,6.2-5,11.2-11.2,11.2h-46.6v6.4h46.6c9.8,0,17.7-7.9,17.7-17.6C516.2,38.2,511,31.5,503.9,29.3z M491,28.4h-32.6V6H491
+													c6.2,0,11.2,5,11.2,11.2S497.2,28.4,491,28.4z"/>
+											</g>
+										</g>
+									</svg>
+									<!--<object id="logo__animation" type="image/svg+xml" data="user/img/logo_page.svg" width="1010" height="100"></object>-->
+								</a>
+								<div class="sep"></div>
+								<ul class="menu__page">
+									<li><a href="index.html">ГОЛОВНА</a></li>
+									<li><a href="about_company.html">Про компанію</a></li>
+									<li><a href="object.html">ОБ'ЄКТИ</a></li>
+									<li><a href="services.html">ПОСЛУГИ</a></li>
+									<li><a href="contacts.html">КОНТАКТИ</a></li>
+								</ul>
+								<div class="sep second"></div>
+							</div>
+						</div>
+					</div>
+					<div class="footer clearfix">
+						<p class="fl-l">&copy;2017<br>Всі права захищено</p>
+						<a href="#0" class="fl-r"><img src="user/img/GoldWeb_marketing_White.svg"  width="90" height="29" alt=""></a>
+						<ul class="primary__social">
+							<li><a href="#"><img src="user/img/f.svg" width="48" height="48" alt=""></a></li>
+							<li><a href="#"><img src="user/img/g.svg" width="48" height="48" alt=""></a></li>
+							<li><a href="#"><img src="user/img/in.svg" width="48" height="48" alt=""></a></li>
+						</ul>
+					</div>
+					<div class="line__left"></div>
+				</div>
+			</div>
+		</div>
+		<nav>
+			<ul class="cd-vertical-nav">
+				<li>
+					<button id="moveUp" class="cd-prev">
+						<svg version="1.1" id="Слой_1" width="60" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+							<rect class="st0" width="60" height="60"/>
+							<polygon class="st1" points="18.7,34 21.5,36.8 30,28.3 38.5,36.8 41.3,34 30,22.7 "/>
+						</svg>
+					</button>
+				</li>
+				<li>
+					<button id="moveDown" class="cd-next">
+						<svg  width="60" height="60" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+							<rect class="st0" width="60" height="60"/>
+							<polygon class="st1" points="18.7,26 21.5,23.2 30,31.7 38.5,23.2 41.3,26 30,37.3 "/>
+						</svg>
+					</button>
+				</li>
+			</ul> <!-- cd-vertical-nav -->
+		</nav>
+	</div>
+
+<script>
+$(function() {
+
+	$('#fullpage').fullpage({
+		anchors: ['fbsection1', 'fbsection2', 'fbsection3', 'fbsection4', 'fbsection5', 'fbsection6', 'fbsection7'],
+		menu: '#cd-vertical-nav',
+//		 navigation: true,
+//		 navigationPosition: 'left',
+		scrollBar: true,
+		scrollOverflow: true,
+	//                continuousVertical: true,
+	//     normalScrollElements: ".accordion",
+	//     responsiveWidth: 760,
+	//     slidesNavigation: true
+		// verticalCentered: false,
+		css3: false
+		// Added ================================
+                    , onLeave: mpleave
+		// Added ================================
+	});
+
+	$(window).scroll(function () {
+		if(location.hash == "#fbsection1" || location.hash == "#fbsection1" ){
+			$('#moveUp').addClass('inactive');
+		}else{
+			$('#moveUp').removeClass('inactive');
+		}
+	});
+	$(window).scroll(function () {
+		if(location.hash == "#fbsection7" || location.hash == "#fbsection7" ){
+			$('#moveDown').addClass('inactive');
+		}else{
+			$('#moveDown').removeClass('inactive');
+		}
+	});
+
+	$(document).on('click', '#moveUp', function(){
+	  $.fn.fullpage.moveSectionUp();
+	});
+
+	$(document).on('click', '#moveDown', function(){
+	  $.fn.fullpage.moveSectionDown();
+	});
+
+});
+
+	  // Added ================================
+            var is_touch = document.ontouchmove === null;
+            var start_touch = 0;
+
+            function mpleave(index, nextIndex, direction){
+                var $slide = $('#fullpage > .section:eq(' + (index-1) + ')');
+                if($slide.data('ready') == -1){
+                    return false;
+                }
+            }
+
+            $(function(){
+                var isIE8_11 = window.navigator.userAgent.indexOf('Trident') !== -1;
+
+                $('.scroll-box').scrollbox({
+                    templates: {horizontalBar: ''}
+                });
+
+                $('#fullpage > .section').each(function(){
+                    var $this = $(this);
+                    if ($this.find('.scroll-box').length > 0) {
+                        $this.attr('data-ready', -1).data('ready', -1);
+                    }
+                }).on(is_touch ? 'touchmove' : 'wheel', function(event) {
+                    var $this = $(this);
+                    var $box = $this.find('.scroll-box:eq(0)');
+                    var speed = 500;
+                    if ($box.length > 0) {
+                        if ($box.data('progress')) {
+                            return false;
+                        }
+                        var direct = 'down';
+                        var maxScroll = $box[0].scrollHeight - $box.outerHeight();
+
+                        if (is_touch) {
+                            var y = typeof event.pageY != 'undefined' ? event.pageY : event.originalEvent.touches[0].pageY;
+                            y <= start_touch ? direct = 'down' : direct = 'up';
+                        } else {
+                            var dy = event.originalEvent.wheelDeltaY || event.originalEvent.deltaY;
+                            if (isIE8_11) {
+                                dy *=-1;
+                            }
+                            dy < 0 ? direct = 'down' : direct = 'up';
+                        }
+
+                        if (direct == 'down' && $box.scrollTop() < maxScroll) { // down
+                            $this.attr('data-ready', -1).data('ready', -1);
+                            $box.data('progress', 1);
+							$box.closest('.section').addClass('active_in');
+                            $box.stop(true, true).animate({'scrollTop': maxScroll}, speed, function() {
+                                $this.attr('data-ready', 1).data('ready', 1);
+                                $box.data('progress', 0);
+                            });
+                        } else if (direct == 'up' && $box.scrollTop() > 0) { // up
+                            $this.attr('data-ready', -1).data('ready', -1);
+                            $box.data('progress', 1);
+							$box.closest('.section').removeClass('active_in');
+                            $box.stop(true, true).animate({'scrollTop': 0}, speed, function() {
+                                $this.attr('data-ready', 1).data('ready', 1);
+                                $box.data('progress', 0);
+                            });
+                        }
+                    }
+                });
+
+                if (is_touch) {
+                    $('#fullpage > .section').on('touchstart', function(event) {
+                        start_touch = typeof event.pageY != 'undefined' ? event.pageY : event.originalEvent.touches[0].pageY;
+                    });
+                }
+            });
+            // Added ================================
+
+
+
+
+</script>
+</body>
+</html>

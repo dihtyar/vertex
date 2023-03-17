@@ -1,0 +1,19 @@
+.circle__scroll.second{
+    padding-left: 0;
+}
+
+
+@media screen and (max-width: 700px){
+
+    .item__1 .txt__info{
+        max-width: 430px;
+        box-sizing: border-box;
+        margin-right: 60px;
+    }
+
+    .right__gr  .swiper-slide:last-child{
+        justify-content: flex-end;
+    }
+
+
+}
